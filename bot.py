@@ -40,7 +40,7 @@ from handlers.save_media import (
 
 MediaList = {}
 
-Bot = Client(
+Bot = Client( "storebot",
     
     
     bot_token=Config.BOT_TOKEN,
