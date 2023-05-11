@@ -1,5 +1,6 @@
 # (c) @AbirHasan2005
 
+from pyrogram import enums
 import os
 import asyncio
 import traceback
