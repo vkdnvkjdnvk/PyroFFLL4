@@ -1,6 +1,5 @@
 # (c) @AbirHasan2005
 
-from pyrogram import enums
 import os
 import asyncio
 import traceback
@@ -8,6 +7,7 @@ from binascii import (
     Error
 )
 from pyrogram import (
+    enums,
     Client,
     
     filters
